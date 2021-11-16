@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más tags HTML. Jesús Alejo</title>
+    <style>
+        html {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgb(182, 255, 221);
+        }
+        h1 {
+            color:darkslategrey;
+        }
+        h2 {
+            color:lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>-------------------Más tags HTML-------------------</h1>
+    <p>por Jesús Alejo</p>
+    <br>
+    <h2>Enlace desde texto (J.A.)</h2>
+    <p>La etiqueta para poner enlaces es "a". Dentro de la etiqueta que abre "a", debemos escribir href= y el enlace a donde queremos que nos lleve, y después escribiremos el texto donde tendremos que pinchar.</p>
+    <p>Por ejemplo, si pinchas <a target="_blank" href="https://www.iesgaherrera.com/">aquí</a> te llevará a la página del instiuto.</p>
+    <br>
+    <h2>Enlace desde imagen</h2>
+    <p>Igual que el anterior, pero con una imagen. Pinchando en la siguiente imagen, irás a la web de TikTok.</p>
+    <a target="_blank" href="https://www.tiktok.com/es//"><img src="imagenes/tiktok.png" width="100"></a>
+    <br>
+    <h2>Enlace absoluto</h2>
+    <p>Es un enlace completo a una página web.Debe incluir la palabra inicial http:// seguida del nombre del dominio. Por ejemplo, <a href="https://www.youtube.com/">https://www.youtube.com/</a> </p>
+    <br>
+    <h2>Enlace relativo</h2>
+    <p>Esto quiere decir que el enlace abrirá una ubicación de nuestro sitio web. Por ejemplo, si pinchas <a href="http://www.alumnadogah.com/alu01/">aquí</a> te llevará de nuevo al índice de la página.</p></p>
+    <br>
+    <h2>Enalce que se abra en una ventana nueva (con el atributo target)</h2>
+    <p>Esto quiere decir que el enlace se abrirá en una pestaña nueva. Se consigue escribiendo target="_blank" dentro de la etiqueta "a".</p>
+    <p>Los dos enlaces de ejemplo anteriores están puestos así, por eso se abren en una nueva pestaña.</p>
+    <br>
+    <h2>Enlace interno</h2>
+    <p> Pinchando en el siguiente enlace te llevará a otra parte de esta página donde se encuentra el vínculo a mi web de CSS.<a href="#css">⬇ Introducción a CSS aquí</a>
+    <br>
+    <h2>Tablas</h2>
+    <p>Con la etiqueta "table" podemos crear tablas. Una tabla debe comenzar con una fila de encabezado con los nombres de las columnas. El elemento thead inicia el área de encabezado, el elemento tr crea una fila y los elementos th crean celdas en la fila. Una tabla puede constar de cualquier número de filas de datos después del encabezado. La etiqueta tbody comienza el área del cuerpo (datos), la misma etiqueta tr crea una fila y las etiquetas <td></td> crean celdas de datos en cada fila.</p>
+    <p>Ejemplo: Un horario</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Física</td>
+                <td>Inglés</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>TIC</td>
+                <td>Historia</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Comentarios</h2>
+    <p>Son anotaciones que usan losdesarrolladores de páginas web para aclarar cosas. Solo se pueden ver si accedes al código.</p>
+    <p>Se escriben entre <!- - y -->. Si inspeccionas el código podrás ver un comentario aquí.<!--Comentario escrito por Jesús Alejo--> </p>
+    <br>
+    <p id="css" ><a href="http://www.alumnadogah.com/alu01/intro_css">Introducción a CSS aquí</a></p>
+</body>
+</html>
